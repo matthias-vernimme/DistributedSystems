@@ -60,7 +60,7 @@ public class BookingManager implements IBookingManager {
 			boolean booked = false;
 			List<BookingDetail> tempBookings = room.getBookings();
 			for(BookingDetail details: tempBookings){
-                if (details.getDate() == date) {
+                if (details.getDate().equals(date)) {
                     booked = true;
                     break;
                 }
