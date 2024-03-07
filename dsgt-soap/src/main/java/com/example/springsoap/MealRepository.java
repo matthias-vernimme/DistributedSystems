@@ -72,7 +72,7 @@ public class MealRepository {
         return values.stream().min(Comparator.comparing(Meal::getPrice)).orElseThrow(NoSuchElementException::new);
     }
 
-    public Order addOrder(Meal meal, String address) {
+    public OrderConfirmation addOrder(Meal meal, String address) {
         if (meal == null) return null;
         Order order = new Order();
         Integer highestKey = 0;
@@ -85,7 +85,9 @@ public class MealRepository {
         order.setMeals(meal);
         order.setAddress(address);
         orders.put(order.getId(), order);
-        return order;
+        OrderConfirmation confirmation = new OrderConfirmation();
+        confirmation.setStatus("Received");
+        return confirmation;
     }
 
     public List<Order> getAllOrders() {

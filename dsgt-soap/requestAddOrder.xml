@@ -7,7 +7,7 @@
         <gs:addOrderRequest>
             <gs:meal>
                 <gs:name>Meal Name 1</gs:name>
-                <gs:kcal>700</gs:kcal>
+                <gs:kcal>500</gs:kcal>
                 <gs:description>Meal Description 1</gs:description>
                 <gs:mealtype>vegan</gs:mealtype>
                 <gs:price>20</gs:price>

@@ -13,6 +13,7 @@ io/foodmenu/gt/webservice/package-info.class
 io/foodmenu/gt/webservice/GetCheapestMealRequest.class
 com/example/springsoap/MealRepository.class
 io/foodmenu/gt/webservice/Mealtype.class
+io/foodmenu/gt/webservice/OrderConfirmation.class
 io/foodmenu/gt/webservice/GetMealRequest.class
 io/foodmenu/gt/webservice/GetMealResponse.class
 io/foodmenu/gt/webservice/GetCheapestMealResponse.class
