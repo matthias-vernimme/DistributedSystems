@@ -1,0 +1,8 @@
+/home/matthias/DS2024/dsgt2-rest/dsgt-rest/src/main/java/be/kuleuven/foodrestservice/FoodRestServiceApplication.java
+/home/matthias/DS2024/dsgt2-rest/dsgt-rest/src/main/java/be/kuleuven/foodrestservice/domain/Meal.java
+/home/matthias/DS2024/dsgt2-rest/dsgt-rest/src/main/java/be/kuleuven/foodrestservice/exceptions/MealNotFoundException.java
+/home/matthias/DS2024/dsgt2-rest/dsgt-rest/src/main/java/be/kuleuven/foodrestservice/controllers/MealsRestRpcStyleController.java
+/home/matthias/DS2024/dsgt2-rest/dsgt-rest/src/main/java/be/kuleuven/foodrestservice/exceptions/MealNotFoundAdvice.java
+/home/matthias/DS2024/dsgt2-rest/dsgt-rest/src/main/java/be/kuleuven/foodrestservice/domain/MealsRepository.java
+/home/matthias/DS2024/dsgt2-rest/dsgt-rest/src/main/java/be/kuleuven/foodrestservice/controllers/MealsRestController.java
+/home/matthias/DS2024/dsgt2-rest/dsgt-rest/src/main/java/be/kuleuven/foodrestservice/domain/MealType.java
