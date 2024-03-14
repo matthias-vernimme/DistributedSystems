@@ -53,7 +53,6 @@ public class MenuEndpoint {
     public AddOrderResponse addOrder(@RequestPayload AddOrderRequest request) {
         AddOrderResponse response = new AddOrderResponse();
         response.setOrderConfirmation(mealrepo.addOrder(request.getMeal(), request.getAddress()));
-//        response.setMeal(mealrepo.addOrder());
 
         return response;
     }

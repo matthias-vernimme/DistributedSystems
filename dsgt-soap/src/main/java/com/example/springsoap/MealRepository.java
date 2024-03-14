@@ -82,12 +82,18 @@ public class MealRepository {
             }
         }
         order.setId(highestKey+1);
-//        order.getMeals().add(meal);
         order.getMeals().addAll(meal);
         order.setAddress(address);
         orders.put(order.getId(), order);
         OrderConfirmation confirmation = new OrderConfirmation();
-        confirmation.setStatus("Received");
+        confirmation.setStatus("Confirmed");
+        confirmation.setPayment("Received");
+        confirmation.setNumberOfMeals(meal.size());
+        int totalPrice = 0;
+        for (Meal current_meal : meal) {
+            totalPrice += current_meal.getPrice();
+        }
+        confirmation.setPrice(totalPrice);
         return confirmation;
     }
 

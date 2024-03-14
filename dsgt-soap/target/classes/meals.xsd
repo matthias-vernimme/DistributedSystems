@@ -102,6 +102,10 @@
     <xs:complexType name="orderConfirmation">
         <xs:sequence>
             <xs:element name="status" type="xs:string"/>
+            <xs:element name="payment" type="xs:string"/>
+            <xs:element name="price" type="xs:int"/>
+            <xs:element name="numberOfMeals" type="xs:int"/>
+
         </xs:sequence>
     </xs:complexType>
 
